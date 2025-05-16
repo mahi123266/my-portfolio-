@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>portifolio Website</title>
+        <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+               <nav>
+                    
+                    <ul>
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portifolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fas fa-times"></i>
+                    </ul>
+                    <i class="fas fa-bars"></i>
+                </nav>
+                <div class="header-text">
+                    <p>  WEB DEVELOPER</p>
+                    <h1>Hi, I'm <span >Mahendra</span> <br>From Hyderabad</h1>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="./m.png.jpg" alt="">
+                    
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>Hell, My name is Gundu Mahendra.Iam Currently Pursuing a Bachelor's degree in Artificial Intelligence and Machine Learning
+                        from Avanthi Institute of Engineering and Technology, Hyderabad.I have a strong passion for technology and Web Design and also problem-solving ,with
+                        experience in Web technologies,Python,SQL and various data science libraries like Numpy and Tensorflow.
+                        </p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('Education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Web Development</span><br>Desinging Website Interfaces and creating Web pages</li>
+                                <li><span>Backend Development</span><br>Backend Develop by using languages Python and database MYSQL</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents"  id="Experience">
+                            <ul>
+                                <li><span>2025-current </span><br> Web Development training at qspiders Institute</li>
+                                
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Education">
+                            <ul>
+                                <li><span>2025</span><br>Iam Currently Pursuing a Bachelor's degree in Artificial Intelligence and Machine Learning
+                                    from Avanthi Institute of Engineering and Technology, Hyderabad</li>
+                                <li><span>2021</span><br> Completed Intermediate at prathibha junior college  </li>
+                                <li><span>2019</span><br> Completed My SSC at Shivaranjani vidya mandir  </li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-------------------------------services-------------------------------------------->
+<div id="services">
+    <div class="container">
+        <h2 class="sub-title">My Services</h2>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p id="para">Im provide the services like Web desinging and  creating webpages by using languages like Html,Css,javascript and framework Bootstrap </p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>Backend Developer</h2>
+                <p id="para">Im provide the Backend Services like Handling Database by using MYSQL and Logic Building using Python</p>
+                <a href="#">learn more</a>
+            </div>
+            
+        </div>
+
+    </div>
+</div>
+<!----------------------------------portifolio---------------------------------------->
+<div class="portifolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                
+                <img src="./web page.avif" alt="" id="img1">
+                <div class="layer">
+                <h1>Web Page</h1>
+                <p><h3>The web page is interact with the users</h3></p>
+                <a href="#">Click</a>
+                </div>
+
+
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+    
+
+</div>
+<!---------------------------------------Contact----------------------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p id="mail"><i class="fa-solid fa-paper-plane"></i>contact mahendragundu3@gmail.com</p>
+                <p id="mail"><i class="fa-solid fa-square-phone"></i>7337303218</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/mahendra_always_online?igsh=Njc1OWdicWc1cG1u"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/mahendra-gundu-8494a0290?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="resume/Mahendrafinalresume" class=" btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+
+    
+
+    </div>
+    
+</div>
+
+
+        <script>
+            var tablinks=document.getElementsByClassName("tab-links");
+            var tabcontents=document.getElementsByClassName("tab-contents");
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+
+            }
+
+
+            
+        </script>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbwSphL83re-oSl-pUP8nVrU8LI5UdkWzdQDWhbtnvtfNq3u4WP_-3sbiL4nEvyujZQ/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg")
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response =>{
+                    msg.innerHTML = "Message sent Successfully"
+                    setTimeout(function(){
+                        msg.innerHTML = ""
+                    },5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+
+    </body>
+</html>
